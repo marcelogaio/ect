@@ -4,6 +4,17 @@
 
 [Just try demo](http://ectjs.com) to check all features.
 
+## THIS BRANCH:
+
+Removed a check of the file extension, so it can be applied to multiple extensions.
+Just add more "app.engine" definitions:
+
+```js
+app.engine('ect', ectRenderer.render);
+app.engine('html', ectRenderer.render);
+app.engine('etc', ectRenderer.render);
+```
+
 ## Installation
 
 	npm install ect
