@@ -1,7 +1,7 @@
 {
-	"name" : "ect",
+	"name" : "ect-multi-extension",
 	"version" : "0.5.9",
-	"description" : "CoffeeScript template engine",
+	"description" : "CoffeeScript template engine - multi extension version",
 	"homepage" : "http://ectjs.com",
 	"keywords" : [ "template", "coffeescript" ],
 	"author" : "Vadim M. Baryshev <vadimbaryshev@gmail.com>",
@@ -11,7 +11,7 @@
 	"main" : "./index",
 	"repository" : {
 		"type" : "git",
-		"url" : "git://github.com/baryshev/ect.git"
+		"url" : "git://github.com/marcelogaio/ect.git"
 	},
 	"dependencies" : {
 		"coffee-script" : ">= 1.5.0",
